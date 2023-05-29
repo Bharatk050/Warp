@@ -13,7 +13,7 @@ def Points(event, x, y, flags, params):
         counters = counters + 1
         # print(circle) 
 
-img = cv2.imread("C:\\Users\\computer\\Desktop\\Space\\15\\OpenCV_PRO\Warp\\Photos\\1.jpg")
+img = cv2.imread("<File_path>")
 img = cv2.resize(img, (0,0), fx= scale, fy= scale)
 while True:
     
